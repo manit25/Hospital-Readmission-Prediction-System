@@ -1,0 +1,42 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Source code
+*.py text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+*.sql text eol=lf
+
+# Docker
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf
+.dockerignore text eol=lf
+
+# Git
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Notebooks
+*.ipynb text eol=lf
+
+# Config files
+.env text eol=lf
+.editorconfig text eol=lf
+
+# Binary files
+*.pkl binary
+*.joblib binary
+*.pyc binary
+*.so binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.db binary
+*.sqlite binary
