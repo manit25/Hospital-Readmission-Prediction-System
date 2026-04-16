@@ -1,0 +1,142 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+.virtualenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.vim
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+postgres/
+pgdata/
+
+# Models & Data
+model/*.pkl
+model/*.joblib
+data/raw/*
+data/processed/*.csv
+!data/processed/processed_data.csv
+data/logs/
+
+# Logs & Temporary Files
+*.log
+logs/
+*.tmp
+*.temp
+*.pid
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+airflow/dags/__pycache__/
+
+# Streamlit
+.streamlit/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Node (if applicable)
+node_modules/
+npm-debug.log
+
+# Mac
+.DS_Store
+*.swp
+
+# Credentials & Secrets
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# IDE Specific
+.vscode/settings.json
+.vscode/launch.json
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Auto-generated files
+*.mo
+.Python
+
+# Cache
+*.cache
+.cache/
+
+# Spark
+.spark-defaults.conf
+spark-warehouse/
